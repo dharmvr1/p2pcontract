@@ -1,0 +1,22 @@
+
+# Node / Hardhat
+node_modules/
+artifacts/
+cache/
+typechain/
+typechain-types/
+coverage/
+coverage.json
+
+# Rust / Anchor / Solana
+target/
+.anchor/
+test-ledger/
+*.so
+*.d
+
+# Environment
+.env
+.env.local
+
+
