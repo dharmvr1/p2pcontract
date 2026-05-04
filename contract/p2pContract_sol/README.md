@@ -35,7 +35,7 @@ The core capabilities of the contract are:
 
 ![alt text](images/image.png)
 
-    ### Key Design Decisions
+### Key Design Decisions
 
 **Escrow via PDA.** The `Pool` account is a Program Derived Address (PDA), meaning it is controlled exclusively by the program itself. When a seller locks tokens into escrow, they are transferred to a token account whose authority is this PDA. No external wallet can move those tokens , only the program can, using `invoke_signed` with the PDA's seeds.
 
